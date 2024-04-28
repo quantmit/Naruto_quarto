@@ -1,0 +1,7 @@
+---
+title: "Naruto Report"
+author: "Idriss Talbi"
+date: "2024-04-28"
+output: html_document
+
+
