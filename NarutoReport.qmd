@@ -4,4 +4,15 @@ author: "Idriss Talbi"
 date: "2024-04-28"
 output: html_document
 
+---
+
+# Naruto: A Ninja's Journey
+
+![Naruto Logo](https://i.pinimg.com/originals/5f/60/34/5f60349f6b0980548907a7a81a8f3aed.jpg){width="200px" height="150px"}
+
+## Brief Description
+
+*Naruto* is a Japanese manga series created by Masashi Kishimoto, following the adventures of Naruto Uzumaki, a young ninja aspiring to become the Hokage and gain recognition from his village. The story unfolds in two parts: Naruto's pre-teen years and his teenage endeavors.
+
+
 
