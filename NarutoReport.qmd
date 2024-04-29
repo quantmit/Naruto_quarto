@@ -14,7 +14,7 @@ output: html_document
 
 *Naruto* is a Japanese manga series created by Masashi Kishimoto, following the adventures of Naruto Uzumaki, a young ninja aspiring to become the Hokage and gain recognition from his village. The story unfolds in two parts: Naruto's pre-teen years and his teenage endeavors.
 
-## Main Cast :
+## Main Charachters :
 
 ### Team 7 stands out as the pivotal ensemble around which much of the narrative revolves :
 
@@ -26,5 +26,12 @@ output: html_document
 
 -   *Kakashi Hatake:* The enigmatic and exceptionally skilled leader of Team 7, Kakashi is known for his tactical acumen and the iconic Sharingan eye. With a history marked by tragedy and loss, he imparts valuable lessons in teamwork and resilience to his squad.
 
+## Basic Statistics
 
+-   **Original Manga Serialization:** 1999--2014
+-   **Total Manga Volumes:** 72
+-   **Original Anime Series:** 2002--2007 (220 episodes)
+-   **Sequel Anime "Naruto: Shippuden":** 2007--2017 (500 episodes)
+-   **Movies:** 11
+-   **Original Video Animations (OVAs):** 12
 
