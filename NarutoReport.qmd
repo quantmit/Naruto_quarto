@@ -37,15 +37,31 @@ output: html_document
 -   **Original Video Animations (OVAs):** 12
 
 
+## Rating
+
 ```{r load-data, echo=FALSE, message=FALSE, warning=FALSE}
 library(readr)
 library(dplyr)
-
+library(ggplot2)
 # Load the data
 naruto_data <- read_csv("C:/Users/Idriss/repositories/repositories/Naruto_quarto/naruto.csv")
 
-# Date Data adustment
+# Date Data adjustment
 naruto_data$Airdate <- as.Date(naruto_data$Airdate, format="%Y-%m-%d")
+```
+
+
+
+```{r rating-over-time, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(naruto_data, aes(x = Num_episode, y = Rate)) +
+  geom_line() +  
+  theme_minimal() + 
+  labs(title = "Rating over time",
+       x = "Number of Episode",
+       y = "Rating") +
+  theme(plot.title = element_text(hjust = 0.5), 
+        axis.title.x = element_text(size = 10),  
+        axis.title.y = element_text(size = 10))  
 ```
 
 
