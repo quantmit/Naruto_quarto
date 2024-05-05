@@ -51,6 +51,8 @@ naruto_data$Airdate <- as.Date(naruto_data$Airdate, format="%Y-%m-%d")
 ```
 
 
+Naruto, as one of the Animes with the most filler episodes, the rating fluctuates so much with no specific pattern. Generally, the most rated episodes are Cannon ones with fights, strong emotions or big plot twist. In contrast, the lowest ratings are the fillers episodes which are usually skipped or skimmed through with relatively low viewership.
+
 
 ```{r rating-over-time, echo=FALSE, message=FALSE, warning=FALSE}
 ggplot(naruto_data, aes(x = Num_episode, y = Rate)) +
