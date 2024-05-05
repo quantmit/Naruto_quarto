@@ -65,7 +65,8 @@ ggplot(naruto_data, aes(x = Num_episode, y = Rate)) +
         axis.title.x = element_text(size = 10),  
         axis.title.y = element_text(size = 10))  
 ```
-
+The highest-rated episodes such as *"The tale of Jiraya the gallant"* captivates the audience with a profound moments like Jiraya's battle against Pain which ends in his the tragic but heroic death of this beloved character, earning the episode a 9.5 rating. Similarly, *"Naruto and Sasuke"* provides a spectacularly intense climax to the Anime's most followed rivalry, combining emotional depth and action-filled sequences. Scenes from this episode which is also rated 9.5, remain iconic among the Anime fans and still circulate on the internet until this day.
+On the other hand of the spectrum, episodes like *"Naruto vs. Mecha Naruto"*, where Naruto weirdly fights off a mechanical doppelganger, significantly diverge from the main narrative, resulting in the lowest rating of 4.2; indicating of course the the viewer preference of main plot of an anime, of which 40% consists of Filler episodes.
 
 ```{r display-high-ratings, echo=FALSE}
 high_ratings <- naruto_data %>%
