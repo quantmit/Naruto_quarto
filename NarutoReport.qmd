@@ -26,6 +26,7 @@ output: html_document
 
 -   *Kakashi Hatake:* The enigmatic and exceptionally skilled leader of Team 7, Kakashi is known for his tactical acumen and the iconic Sharingan eye. With a history marked by tragedy and loss, he imparts valuable lessons in teamwork and resilience to his squad.
 
+
 ## Basic Statistics
 
 -   **Original Manga Serialization:** 1999--2014
@@ -34,4 +35,27 @@ output: html_document
 -   **Sequel Anime "Naruto: Shippuden":** 2007--2017 (500 episodes)
 -   **Movies:** 11
 -   **Original Video Animations (OVAs):** 12
+
+
+```{r load-data, echo=FALSE, message=FALSE, warning=FALSE}
+library(readr)
+library(dplyr)
+
+# Load the data
+naruto_data <- read_csv("C:/Users/Idriss/repositories/repositories/Naruto_quarto/naruto.csv")
+
+# Date Data adustment
+naruto_data$Airdate <- as.Date(naruto_data$Airdate, format="%Y-%m-%d")
+```
+
+
+
+
+
+
+
+
+
+
+
 
