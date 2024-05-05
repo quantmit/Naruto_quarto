@@ -98,7 +98,7 @@ low_ratings %>%
     format = "html"
   )
 ```
-
+![Naruto vs Sasuke](https://www.dojotaku.com/wp-content/uploads/2024/04/image-2.jpeg)
 
 
 
