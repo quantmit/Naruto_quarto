@@ -66,7 +66,20 @@ ggplot(naruto_data, aes(x = Num_episode, y = Rate)) +
         axis.title.y = element_text(size = 10))  
 ```
 
+```{r display-high-ratings, echo=FALSE}
+high_ratings <- naruto_data %>%
+  filter(Rate > 9.2) %>%
+  arrange(desc(Rate))
 
+high_ratings %>%
+  select(Num_episode, Title, Type, Rate) %>%
+  knitr::kable(
+    caption = "Episodes Rated Above 9.2",
+    col.names = c("Episode Number", "Type" , "Title", "Rating"),
+    align = 'lcc',
+    format = "html"
+  )
+```
 
 
 
