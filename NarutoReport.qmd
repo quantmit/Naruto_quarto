@@ -43,6 +43,7 @@ output: html_document
 library(readr)
 library(dplyr)
 library(ggplot2)
+library(knitr)
 # Load the data
 naruto_data <- read_csv("C:/Users/Idriss/repositories/repositories/Naruto_quarto/naruto.csv")
 
