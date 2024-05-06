@@ -112,7 +112,7 @@ low_ratings %>%
     col.names = c("Episode Number", "Title", "Type" , "Rating"),
     align = 'lcc',
     format = "html"
-  )
+)
 ```
 
 
